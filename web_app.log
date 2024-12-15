@@ -1,0 +1,384 @@
+{"level":"INFO","time":"2024-07-30T19:14:40.725+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-07-30T19:15:22.791+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-07-30T19:15:29.439+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-07-30T19:16:01.682+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-07-30T19:16:16.295+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-07-30T19:16:32.974+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-07-30T19:16:34.766+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-07-30T19:16:35.439+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-07-30T19:16:36.087+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-07-30T19:16:36.658+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-07-30T19:16:37.144+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-07-30T19:16:38.134+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-07-31T15:27:55.408+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-07-31T15:30:55.395+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-07-31T15:30:56.967+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-07-31T15:32:10.732+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-07-31T15:37:40.697+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-07-31T15:40:12.250+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-07-31T15:40:16.058+0800","caller":"logger/logger.go:78","msg":"/","status":404,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36","errors":"","cost":0.000001192}
+{"level":"INFO","time":"2024-07-31T15:40:17.176+0800","caller":"logger/logger.go:78","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36","errors":"","cost":0.000001452}
+{"level":"ERROR","time":"2024-07-31T15:40:32.661+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.Username' Error:Field validation for 'Username' failed on the 'required' tag\nKey: 'ParamSignUp.Password' Error:Field validation for 'Password' failed on the 'required' tag\nKey: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2024-07-31T15:40:32.661+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000224597}
+{"level":"ERROR","time":"2024-07-31T15:42:21.036+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.Username' Error:Field validation for 'Username' failed on the 'required' tag"}
+{"level":"INFO","time":"2024-07-31T15:42:21.036+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000223385}
+{"level":"ERROR","time":"2024-07-31T15:42:23.668+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.Username' Error:Field validation for 'Username' failed on the 'required' tag"}
+{"level":"INFO","time":"2024-07-31T15:42:23.668+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000128895}
+{"level":"INFO","time":"2024-07-31T15:43:38.023+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.00007857}
+{"level":"INFO","time":"2024-07-31T16:07:07.569+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"ERROR","time":"2024-07-31T16:07:18.063+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"invalid character '}' looking for beginning of object key string"}
+{"level":"INFO","time":"2024-07-31T16:07:18.063+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000133063}
+{"level":"ERROR","time":"2024-07-31T16:07:25.890+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2024-07-31T16:07:25.890+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000258191}
+{"level":"INFO","time":"2024-07-31T16:30:03.567+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-07-31T16:30:18.264+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000174772}
+{"level":"INFO","time":"2024-07-31T17:22:34.267+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-07-31T17:22:41.792+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.040679246}
+{"level":"ERROR","time":"2024-07-31T17:22:50.773+0800","caller":"controller/user.go:34","msg":"logic.SignUp failed","error":"user is exited"}
+{"level":"INFO","time":"2024-07-31T17:22:50.773+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.004764936}
+{"level":"INFO","time":"2024-07-31T17:23:51.756+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.012512356}
+{"level":"ERROR","time":"2024-07-31T17:25:35.567+0800","caller":"controller/user.go:17","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2024-07-31T17:25:35.571+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.004178666}
+{"level":"INFO","time":"2024-07-31T17:42:19.720+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"ERROR","time":"2024-07-31T17:42:26.212+0800","caller":"controller/user.go:17","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2024-07-31T17:42:26.212+0800","caller":"logger/logger.go:78","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000275063}
+{"level":"INFO","time":"2024-07-31T18:31:35.306+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"ERROR","time":"2024-07-31T18:31:54.384+0800","caller":"controller/user.go:50","msg":"login with invalid param","error":"invalid character '}' looking for beginning of object key string"}
+{"level":"INFO","time":"2024-07-31T18:31:54.384+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000188488}
+{"level":"ERROR","time":"2024-07-31T18:31:59.164+0800","caller":"controller/user.go:67","msg":"logic.login failed","error":"password is wrong"}
+{"level":"INFO","time":"2024-07-31T18:31:59.164+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.005599031}
+{"level":"ERROR","time":"2024-07-31T18:32:04.146+0800","caller":"controller/user.go:67","msg":"logic.login failed","error":"password is wrong"}
+{"level":"INFO","time":"2024-07-31T18:32:04.146+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000836795}
+{"level":"INFO","time":"2024-07-31T18:32:50.255+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.001044507}
+{"level":"INFO","time":"2024-07-31T18:34:24.693+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000817937}
+{"level":"ERROR","time":"2024-07-31T18:34:31.264+0800","caller":"controller/user.go:67","msg":"logic.login failed","error":"user not exits"}
+{"level":"INFO","time":"2024-07-31T18:34:31.264+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.001145152}
+{"level":"ERROR","time":"2024-07-31T18:34:48.885+0800","caller":"controller/user.go:67","msg":"logic.login failed","error":"user not exits"}
+{"level":"INFO","time":"2024-07-31T18:34:48.885+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000851343}
+{"level":"INFO","time":"2024-07-31T18:35:46.038+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"ERROR","time":"2024-07-31T18:35:48.577+0800","caller":"controller/user.go:67","msg":"logic.login failed","user_name":"xusir9","error":"user not exits"}
+{"level":"INFO","time":"2024-07-31T18:35:48.577+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.002073727}
+{"level":"INFO","time":"2024-08-01T15:58:35.085+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-01T15:58:59.752+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"ERROR","time":"2024-08-01T15:59:27.959+0800","caller":"controller/user.go:62","msg":"logic.login failed","user_name":"xusir9","error":"用户不存在"}
+{"level":"INFO","time":"2024-08-01T15:59:27.959+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.008856866}
+{"level":"INFO","time":"2024-08-01T15:59:38.287+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.001140567}
+{"level":"INFO","time":"2024-08-01T17:46:44.349+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-01T17:46:52.642+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.009176369}
+{"level":"INFO","time":"2024-08-01T18:41:58.568+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T16:31:59.279+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T16:33:07.929+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T16:34:25.807+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36","errors":"","cost":0.008360943}
+{"level":"INFO","time":"2024-08-05T16:34:26.049+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts2","status":404,"method":"GET","path":"/api/v1/posts2","query":"page=1&order=time","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36","errors":"","cost":0.000000962}
+{"level":"INFO","time":"2024-08-05T17:35:20.290+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:39:13.204+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:05.298+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:13.989+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:15.093+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:16.301+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:17.444+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:18.556+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:19.752+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:20.841+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:21.980+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:23.040+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:24.164+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:25.311+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:26.418+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:27.550+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:28.686+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:29.829+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:30.998+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:32.107+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:33.234+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:34.330+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:35.471+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:36.604+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:37.768+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:38.939+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:40.000+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:41.078+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:42.258+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:43.403+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:44.502+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:45.595+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:46.655+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:47.858+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:48.995+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:50.103+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:51.245+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:52.375+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:53.505+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:54.714+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:55.787+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:56.930+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:41:58.089+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:42:51.888+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:42:53.050+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:42:54.082+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:42:55.364+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:42:56.476+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:42:57.536+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:42:58.642+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:42:59.804+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:00.905+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:02.056+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:03.223+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:04.327+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:05.467+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:06.641+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:07.702+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:08.824+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:10.011+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:11.078+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:12.174+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:13.336+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:14.437+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:15.588+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:16.704+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:17.824+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:18.998+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:20.111+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:21.249+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:22.318+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:23.465+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:24.566+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:25.756+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:26.870+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:27.997+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:29.170+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:30.279+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:31.391+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:32.519+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:33.702+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:34.835+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:36.029+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:37.129+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:38.268+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:39.381+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:40.622+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:41.741+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:42.936+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:44.070+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:45.201+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:46.326+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:47.467+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:48.568+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:49.731+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:50.903+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:52.083+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:53.186+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:54.375+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:55.506+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:56.643+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:57.751+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:43:58.966+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:44:00.087+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:44:01.276+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:44:02.421+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:44:03.551+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:44:04.717+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:44:05.853+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:44:06.997+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:44:08.106+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:44:09.303+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:44:10.396+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:46:32.744+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:46:33.932+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:46:35.042+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:46:36.093+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:46:37.214+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:46:38.362+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:46:39.395+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:46:40.650+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:46:41.758+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:46:42.905+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:46:43.999+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:46:45.161+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:46:46.353+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:46:47.404+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:46:48.521+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:46:49.729+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:46:50.819+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:46:51.970+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:47:30.517+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-05T17:47:37.449+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-07T12:54:14.741+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-07T12:57:55.455+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.013293012}
+{"level":"INFO","time":"2024-08-07T12:59:04.721+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000038152}
+{"level":"INFO","time":"2024-08-07T12:59:19.595+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000025609}
+{"level":"ERROR","time":"2024-08-07T12:59:45.466+0800","caller":"controller/post.go:20","msg":"create post with invalid param"}
+{"level":"INFO","time":"2024-08-07T12:59:45.466+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000240638}
+{"level":"ERROR","time":"2024-08-07T13:02:44.953+0800","caller":"controller/post.go:20","msg":"create post with invalid param"}
+{"level":"INFO","time":"2024-08-07T13:02:44.953+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000628499}
+{"level":"INFO","time":"2024-08-07T13:03:24.877+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.014984269}
+{"level":"ERROR","time":"2024-08-07T13:05:06.221+0800","caller":"controller/post.go:20","msg":"create post with invalid param"}
+{"level":"INFO","time":"2024-08-07T13:05:06.222+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.001063488}
+{"level":"INFO","time":"2024-08-07T13:05:49.164+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":404,"method":"POST","path":"/api/v1/posts","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000000952}
+{"level":"ERROR","time":"2024-08-07T13:05:56.875+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:05:56.876+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:05:56.877+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:05:56.877+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:05:56.878+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:05:56.878+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:05:56.879+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:05:56.879+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:05:56.880+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:05:56.880+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.023888814}
+{"level":"ERROR","time":"2024-08-07T13:06:33.832+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:33.833+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:33.833+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:33.834+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:33.834+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:33.835+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:33.835+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:33.836+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:33.837+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:06:33.837+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"1?2","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.006822343}
+{"level":"ERROR","time":"2024-08-07T13:06:49.388+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:49.389+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:49.390+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:49.390+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:49.391+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:49.391+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:49.392+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:49.392+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:49.393+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:06:49.393+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"1?3","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.006608865}
+{"level":"ERROR","time":"2024-08-07T13:06:52.189+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:52.189+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:52.190+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:52.191+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:52.191+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:52.192+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:52.192+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:52.193+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:52.194+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:06:52.194+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"2?3","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.007079645}
+{"level":"ERROR","time":"2024-08-07T13:06:59.161+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:59.161+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:59.162+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:59.162+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:59.163+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:59.163+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:59.163+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:59.164+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:06:59.164+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:06:59.165+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"2?1","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.00604315}
+{"level":"INFO","time":"2024-08-07T13:08:33.503+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=1&&page=1","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.001992606}
+{"level":"ERROR","time":"2024-08-07T13:08:38.016+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:08:38.017+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:08:38.017+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=3&&page=1","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.002837991}
+{"level":"ERROR","time":"2024-08-07T13:08:44.987+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:08:44.988+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:08:44.989+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:08:44.989+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=3&&page=2","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.002347334}
+{"level":"ERROR","time":"2024-08-07T13:08:55.051+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:08:55.052+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:08:55.053+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:08:55.053+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=3&page=2","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.002724235}
+{"level":"ERROR","time":"2024-08-07T13:08:56.899+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:08:56.900+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:08:56.900+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:08:56.900+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=3&page=2","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.002411435}
+{"level":"ERROR","time":"2024-08-07T13:08:58.646+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:08:58.647+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:08:58.648+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":28018727488323585,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:08:58.648+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=3&page=2","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.003344526}
+{"level":"INFO","time":"2024-08-07T13:09:12.145+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=1&page=1","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.00172103}
+{"level":"ERROR","time":"2024-08-07T13:09:16.711+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:09:16.711+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=2&page=1","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.00213816}
+{"level":"INFO","time":"2024-08-07T13:10:25.723+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"ERROR","time":"2024-08-07T13:10:37.476+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:10:37.476+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=2&page=1","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.002961036}
+{"level":"ERROR","time":"2024-08-07T13:10:44.524+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:10:44.524+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:10:44.524+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=2&page=2","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.002166271}
+{"level":"ERROR","time":"2024-08-07T13:10:49.764+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:10:49.764+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=2&page=1","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.002616804}
+{"level":"ERROR","time":"2024-08-07T13:11:48.246+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:11:48.246+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=2&page=1","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.002227731}
+{"level":"ERROR","time":"2024-08-07T13:11:52.907+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:11:52.907+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=2&page=1","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.002267065}
+{"level":"ERROR","time":"2024-08-07T13:11:53.769+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:11:53.769+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=2&page=1","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.002300398}
+{"level":"ERROR","time":"2024-08-07T13:11:54.555+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:11:54.556+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=2&page=1","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.002134815}
+{"level":"INFO","time":"2024-08-07T13:18:27.354+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"ERROR","time":"2024-08-07T13:18:32.159+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:18:32.159+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=2&page=1","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.002265936}
+{"level":"ERROR","time":"2024-08-07T13:18:53.848+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:18:53.849+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:18:53.849+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:18:53.850+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=4&page=1","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.003386646}
+{"level":"ERROR","time":"2024-08-07T13:19:47.355+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:19:47.356+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:19:47.357+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:19:47.357+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=4&page=1","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.003530786}
+{"level":"ERROR","time":"2024-08-07T13:19:51.652+0800","caller":"controller/post.go:71","msg":"logic.GetPostList() failed","error":"Error 1690 (22003): signed integer value is out of range in 'mysqld_stmt_execute'"}
+{"level":"INFO","time":"2024-08-07T13:19:51.652+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=4&page=0","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000938647}
+{"level":"INFO","time":"2024-08-07T13:20:05.289+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"ERROR","time":"2024-08-07T13:20:10.021+0800","caller":"controller/post.go:71","msg":"logic.GetPostList() failed","error":"Error 1690 (22003): signed integer value is out of range in 'mysqld_stmt_execute'"}
+{"level":"INFO","time":"2024-08-07T13:20:10.021+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=4&page=0","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000755335}
+{"level":"INFO","time":"2024-08-07T13:20:34.027+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"ERROR","time":"2024-08-07T13:21:01.430+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:21:01.431+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:21:01.431+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:21:01.431+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=4&page=1","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.003363794}
+{"level":"ERROR","time":"2024-08-07T13:56:44.211+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:56:44.216+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T13:56:44.217+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T13:56:44.217+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=4&page=1","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.008196518}
+{"level":"INFO","time":"2024-08-07T14:00:17.681+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"ERROR","time":"2024-08-07T14:00:25.171+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T14:00:25.172+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T14:00:25.172+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T14:00:25.172+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=4&page=1","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.017594456}
+{"level":"ERROR","time":"2024-08-07T14:01:46.741+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T14:01:46.746+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2024-08-07T14:01:46.747+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":1,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2024-08-07T14:01:46.751+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts","status":200,"method":"GET","path":"/api/v1/posts","query":"size=8&page=1","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.012688255}
+{"level":"INFO","time":"2024-08-07T14:08:40.627+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-07T14:11:08.250+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-07T14:12:09.536+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-07T14:12:45.389+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.002352578}
+{"level":"INFO","time":"2024-08-07T14:14:03.287+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-07T16:23:53.353+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-07T17:29:28.017+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-07T18:29:47.767+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-07T18:30:00.674+0800","caller":"logger/logger.go:78","msg":"/","status":404,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36","errors":"","cost":0.000001864}
+{"level":"INFO","time":"2024-08-07T18:30:01.775+0800","caller":"logger/logger.go:78","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36","errors":"","cost":0.000001623}
+{"level":"INFO","time":"2024-08-07T18:30:55.009+0800","caller":"logger/logger.go:78","msg":"/api/v1/vote","status":404,"method":"GET","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000001553}
+{"level":"INFO","time":"2024-08-07T18:31:09.200+0800","caller":"logger/logger.go:78","msg":"/api/v1/vote","status":404,"method":"GET","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000001323}
+{"level":"INFO","time":"2024-08-07T18:31:21.924+0800","caller":"logger/logger.go:78","msg":"/api/v1/vote/","status":404,"method":"GET","path":"/api/v1/vote/","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000001193}
+{"level":"INFO","time":"2024-08-07T18:31:22.898+0800","caller":"logger/logger.go:78","msg":"/api/v1/vote/","status":404,"method":"GET","path":"/api/v1/vote/","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000001212}
+{"level":"INFO","time":"2024-08-07T18:32:13.543+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.011222791}
+{"level":"INFO","time":"2024-08-07T18:32:14.951+0800","caller":"logger/logger.go:78","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000779584}
+{"level":"INFO","time":"2024-08-07T18:32:25.072+0800","caller":"logger/logger.go:78","msg":"/api/v1/vote","status":404,"method":"GET","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000001453}
+{"level":"INFO","time":"2024-08-07T18:32:30.903+0800","caller":"logger/logger.go:78","msg":"/api/v1/vote","status":404,"method":"GET","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000001563}
+{"level":"INFO","time":"2024-08-07T18:32:34.800+0800","caller":"logger/logger.go:78","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000017212}
+{"level":"INFO","time":"2024-08-07T18:33:02.382+0800","caller":"logger/logger.go:78","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000130428}
+{"level":"ERROR","time":"2024-08-07T18:35:34.220+0800","caller":"controller/vote.go:43","msg":"logic.VoteForPost() failed","error":"投票时间已过"}
+{"level":"INFO","time":"2024-08-07T18:35:34.220+0800","caller":"logger/logger.go:78","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.002919489}
+{"level":"INFO","time":"2024-08-07T18:37:05.695+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":404,"method":"GET","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000001192}
+{"level":"INFO","time":"2024-08-07T18:37:15.253+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":404,"method":"GET","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000001052}
+{"level":"INFO","time":"2024-08-07T18:37:25.813+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.000019156}
+{"level":"ERROR","time":"2024-08-07T18:37:37.526+0800","caller":"controller/post.go:20","msg":"create post with invalid param"}
+{"level":"INFO","time":"2024-08-07T18:37:37.526+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.00028391}
+{"level":"INFO","time":"2024-08-07T18:38:12.241+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.013979525}
+{"level":"INFO","time":"2024-08-07T18:38:41.445+0800","caller":"logger/logger.go:78","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.001128555}
+{"level":"INFO","time":"2024-08-07T18:40:26.397+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.00806557}
+{"level":"INFO","time":"2024-08-07T18:41:59.032+0800","caller":"logger/logger.go:78","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.40.0","errors":"","cost":0.003786998}
+{"level":"INFO","time":"2024-08-08T19:57:33.411+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T19:02:37.763+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T19:02:58.583+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T19:03:27.362+0800","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"INFO","time":"2024-08-11T19:03:52.907+0800","caller":"logger/logger.go:78","msg":"/api/v1/post2/","status":404,"method":"POST","path":"/api/v1/post2/","query":"page=1&size=10&order=time&commuity=1","ip":"::1","user-agent":"PostmanRuntime/7.41.0","errors":"","cost":0.000001283}
+{"level":"INFO","time":"2024-08-11T19:04:15.659+0800","caller":"logger/logger.go:78","msg":"/","status":404,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36","errors":"","cost":0.000019346}
+{"level":"INFO","time":"2024-08-11T19:04:16.814+0800","caller":"logger/logger.go:78","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36","errors":"","cost":0.000001583}
+{"level":"INFO","time":"2024-08-11T19:04:32.452+0800","caller":"logger/logger.go:78","msg":"/api/v1/post2/","status":404,"method":"GET","path":"/api/v1/post2/","query":"page=1&size=10&order=time&commuity=1","ip":"::1","user-agent":"PostmanRuntime/7.41.0","errors":"","cost":0.000001984}
+{"level":"INFO","time":"2024-08-11T19:04:37.779+0800","caller":"logger/logger.go:78","msg":"/api/v1/post2/","status":404,"method":"GET","path":"/api/v1/post2/","query":"page=1&size=10&order=time&commuity=1","ip":"::1","user-agent":"PostmanRuntime/7.41.0","errors":"","cost":0.000001113}
+{"level":"INFO","time":"2024-08-11T19:04:56.624+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts2","status":200,"method":"GET","path":"/api/v1/posts2","query":"page=1&size=10&order=time&commuity=1","ip":"::1","user-agent":"PostmanRuntime/7.41.0","errors":"","cost":0.040242225}
+{"level":"INFO","time":"2024-08-11T19:05:03.964+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts2","status":200,"method":"GET","path":"/api/v1/posts2","query":"page=1&size=10&order=time","ip":"::1","user-agent":"PostmanRuntime/7.41.0","errors":"","cost":0.002262573}
+{"level":"INFO","time":"2024-08-11T19:05:08.645+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts2","status":200,"method":"GET","path":"/api/v1/posts2","query":"page=1&size=20&order=time","ip":"::1","user-agent":"PostmanRuntime/7.41.0","errors":"","cost":0.002479355}
+{"level":"INFO","time":"2024-08-11T19:05:12.697+0800","caller":"logger/logger.go:78","msg":"/api/v1/posts2","status":200,"method":"GET","path":"/api/v1/posts2","query":"page=1&size=30&order=time","ip":"::1","user-agent":"PostmanRuntime/7.41.0","errors":"","cost":0.002234992}
